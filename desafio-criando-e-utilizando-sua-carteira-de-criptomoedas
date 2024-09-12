@@ -1,0 +1,25 @@
+#passos do desafio
+
+-instalação do nodejs v20.15.1
+-execução do código sugerido para criação de carteira
+  -foi utilizada a ferramenta vscode v1.93.0 
+  -foram necessários ajustes indicados pelo próprio vscode modificados sobre o código sugerido na aula relacionados ao processo de importação das dependências
+  -o arquivo com o código utilizado encontra-se neste repositório
+  -foi necessário ajustar o arquivo de configuração package.json com a linha abaixo:
+      "type": "module"
+
+-foram criadas duas carteiras com os id abaixo
+  -carteira1 - mqTFCBqBQjbmjRtXshH7Vqy8qPq3M35PiF
+  -carteira2 - mo3g5ExniZ97Pyz4fc9ygAhZKjg6rUpiok
+
+-alguns dos sites indicados para acompanhamento da execução das atividades aparentemente tiveram algum ajuste desde a elaboração do curso (2022) sendo necessário a utilização de sites alternativos
+  -para visualização das carteiras criadas:
+  https://sochain.com/address/BTCTEST/mqTFCBqBQjbmjRtXshH7Vqy8qPq3M35PiF (a url mostra o conteudo da primeira carteira criada)
+
+-foi percebido que a criação da carteira não reflete imediatamente para toda a rede Testnet, assim, possivelmente as ferramentas que coincidentemente estejam mais próximas do nó para o qual a informação tenha sido enviada exibirão as informações associadas a atividade executada (transação entre carteiras ou criação de carteira)
+
+-no teste final foi enviada uma quantidade de btc-testnet da carteira1 para a carteira2
+  -devido a pequena quantidade de btc-testnet não foi possível implementar prioridade a mineração correspondente a essa transferência desta forma a comprovação de conclusão do desafio foi gerada a partir do compartilhamento da transação entre as carteiras com a ferramenta Electrum
+  -o arquivo característico da transação contra-se neste repositório
+
+
