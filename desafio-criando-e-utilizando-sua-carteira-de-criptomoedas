@@ -19,7 +19,9 @@
 -foi percebido que a criação da carteira não reflete imediatamente para toda a rede Testnet, assim, possivelmente as ferramentas que coincidentemente estejam mais próximas do nó para o qual a informação tenha sido enviada exibirão as informações associadas a atividade executada (transação entre carteiras ou criação de carteira)
 
 -no teste final foi enviada uma quantidade de btc-testnet da carteira1 para a carteira2
-  -devido a pequena quantidade de btc-testnet não foi possível implementar prioridade a mineração correspondente a essa transferência desta forma a comprovação de conclusão do desafio foi gerada a partir do compartilhamento da transação entre as carteiras com a ferramenta Electrum
-  -o arquivo característico da transação contra-se neste repositório
+  -foi usado o link abaixo para visualização da transação executada:
+  https://sochain.com/tx/BTCTEST/064097069e069d5fe8c83b301c43d3456b01f0caecf93c0ed0eb8737a26c9537 (a url mostra o conteudo da transação executada)
+
+  -o arquivo característico da transação gerada pela ferramenta Electrum também encontra-se neste repositório
 
 
